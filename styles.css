@@ -1,0 +1,95 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body Background - Gradient */
+body {
+  background: linear-gradient(to right, pink, pink);
+  color: white;
+  text-align: center;
+  padding-top: 80px; /* Offset for navbar */
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  color: skyblue!important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important;
+  transform: scale(1.1);
+}
+
+/* Main Content Box */
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/* Button Styling */
+.btn-custom {
+  background-color: red;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn-custom:hover {
+  background-color: #333;
+  color: skyblue;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@
+/* Stylish Paragraph */
+p {
+  font-size: 24px;
+  font-weight: bold;
+  color: blueviolet;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin: 20px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+p:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+  transform: scale(1.1);
+}
